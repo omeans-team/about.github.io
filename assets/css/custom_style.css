@@ -11,6 +11,7 @@
 
 .slick-slide img {
   width: 100%;
+  background-color: #333;
 }
 
 .slick-track::before,
@@ -75,9 +76,7 @@
   }
 }
 
-body {
-    background-color: #010101;
-  }
+
   
 .row {
   overflow: hidden;
