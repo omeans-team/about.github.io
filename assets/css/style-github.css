@@ -8,9 +8,10 @@
     padding-bottom: 112px !important;
 }
 .font-mktg {
-    font-family: Alliance No.1,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-family: Alliance No.1,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;
     word-break: keep-all;
 }
+
 .home-hero-container {
     height: 94vh;
     min-height: 860px;
