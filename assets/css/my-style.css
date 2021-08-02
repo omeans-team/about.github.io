@@ -1,0 +1,29 @@
+
+
+/*Back to top*/
+/*Back to top*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    /*untuk font dan icon*/
+    /*
+    font-size: 50px;
+    */
+    /*untuk font dan icon*/
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    /*untuk font dan icon*/
+    /*
+    color: white;
+    */
+    /*untuk font dan icon*/
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  /*End Back to top*/
+  /*End Back to top*/

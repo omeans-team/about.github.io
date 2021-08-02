@@ -1,0 +1,61 @@
+/*btn-nav2 like github*/
+/*btn-nav2 like github*/
+/*btn-nav2 like github*/
+.btn-block-r{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+}
+.btn-block-r:focus,.btn-block-r:hover{
+    text-decoration: none;
+}
+/*btn-nav2 like github*/
+/*btn-nav2 like github*/
+/*btn-nav2 like github*/
+
+
+/*style like github*/
+/*style like github*/
+/*style like github*/
+
+
+.text-mono {
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+}
+.f4-mktg {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+.home-hero-container {
+    height: 94vh;
+    min-height: 860px;
+    background-color: #040d21;
+    max-height: 926px;
+}
+
+.home-hero {
+    padding: 8rem 0;
+}
+.z-1 {
+    z-index: 1 !important;
+}
+.left-0 {
+    left: 0 !important;
+}
+.bottom-0 {
+    bottom: 0 !important;
+}
+.right-0 {
+    right: 0 !important;
+}
+.top-0 {
+    top: 0 !important;
+}
+
+/*style like github*/
+/*style like github*/
+/*style like github*/
