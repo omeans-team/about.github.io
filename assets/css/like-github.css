@@ -55,7 +55,42 @@
 .top-0 {
     top: 0 !important;
 }
-
+.position-lg-absolute {
+    position: absolute !important;
+}
+.bottom-lg-8 {
+    bottom: 64px !important;
+}
+.left-lg-0 {
+    left: 0 !important;
+}
+.right-lg-0 {
+    right: 0 !important;
+}
+.mt-4 {
+    margin-top: 24px !important;
+}
+.pl-lg-3, .px-lg-3 {
+    padding-left: 16px !important;
+}
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.container-xl {
+    max-width: 1280px;
+}
+.py-4 {
+    padding-bottom: 24px !important;
+    padding-top: 24px !important;
+}
+body {
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-primary);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+    line-height: 1.5;
+}
 /*style like github*/
 /*style like github*/
 /*style like github*/
