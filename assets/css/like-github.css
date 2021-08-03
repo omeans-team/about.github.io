@@ -89,6 +89,14 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+.gutter-md-spacious {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.gutter-condensed {
+    margin-left: -8px;
+    margin-right: -8px;
+}
 /*style like github*/
 /*style like github*/
 /*style like github*/

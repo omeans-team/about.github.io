@@ -12,11 +12,20 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/ts.css">
-        <link rel="stylesheet" href="assets/css/like-github.css">
         <link rel="stylesheet" href="assets/css/my-style.css">
         <link rel="stylesheet" href="assets/css/remove-scrollbar.css">
         <link rel="stylesheet" href="assets/css/bg-color.css">
         <!-- End CSS -->
+        
+        <!-- Start Github Style -->
+        <link crossorigin="anonymous" media="all" integrity="sha512-+z3z7w/QKK6v7DS9Y7YG7e3neIfYqIJaOykTRwMq4TdhAIQ7h3n7TCXttcuZDvdnaWPJV44oKM5vmkLhHO2ZHA==" rel="stylesheet" href="assets/github-style/frameworks-fb3df3ef0fd028aeafec34bd63b606ed.css">
+        <link crossorigin="anonymous" media="all" integrity="sha512-fT2DQxqNhDV1nNx3O++a8GI7qYYEW9SXVa1DFqueH7oHuDL9whJKb3TOAvI6HA8fH6nRcesnmlOqZEkTo1i0Ig==" rel="stylesheet" href="assets/github-style/behaviors-7d3d83431a8d8435759cdc773bef9af0.css">
+        <link crossorigin="anonymous" media="all" integrity="sha512-hYGZSZSj5++MKRYLpvuTuQZOudb1FvmDgsVTX4newaIeoM71nzUl0THhhpl+G0RnD4p6hGjUSL+TTsTNy47xXQ==" rel="stylesheet" href="assets/github-style/github-8581994994a3e7ef8c29160ba6fb93b9.css">
+        <link crossorigin="anonymous" media="all" integrity="sha512-DhF5Ox2jWLFLyryMlvzBmJVYB2lsox+O1g/aqMEAwk4pjrNtWPQKkJF+Z492rI9mtbueEuJgVC68bYYaRSDcjA==" rel="stylesheet" href="assets/github-style/site-0e11793b1da358b14bcabc8c96fcc198.css">
+        <link crossorigin="anonymous" media="all" integrity="sha512-wA6mB1feWfVtqh5T5147j27/U+aPoo6Hha86Q0JHLRV3v4ex+Muo7Scrq02ti3I0odiu1OxFLDQ85gZE9nkeIA==" rel="stylesheet" href="assets/github-style/home-c00ea60757de59f56daa1e53e75e3b8f.css">
+
+        <link rel="stylesheet" href="assets/github-style/videocontrols.css">
+        <!-- End Github Style -->
 
         <!-- Start JavaScript -->
         <!-- Optional JavaScript -->
@@ -31,7 +40,7 @@
         <title>BS4</title>
 
     </head>
-    <body>
+    <body style="word-wrap: break-word;">
         
         <!-- Back To Top Image -->
         <!-- Back To Top Image -->
@@ -42,7 +51,8 @@
         <!-- <a onclick="topFunction()" id="myBtn">Top</a> -->
 
         <!-- Navigation + div container class-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-relative">
             <div class="container">
             <!-- Home Link -->
             <a class="navbar-brand" href="#"><img class="rounded-circle" src="assets/images/logo.png" alt="Logo" style="width:40px;"></a>
@@ -91,8 +101,8 @@
               </form>
             </div>
         </div>
-        </nav>
-        
+      </nav>
+      </div>
         <div class="home-hero-container position-relative js-webgl-globe-data">
             <div class="home-hero position-absolute z-1 top-0 right-0 bottom-0 left-0 overflow-hidden">
               <div>
@@ -100,7 +110,29 @@
                   <div>
                     <div class="position-lg-absolute bottom-lg-8 left-lg-0 right-lg-0 mt-4 z-1 position-relative">
                       <div class="container-xl mx-auto px-lg-3">
-                        <div class="py-4" style="border-top: 1px solid rgba(255,255,255,0.1)"></div>
+                        <div class="py-4" style="border-top: 1px solid rgba(255,255,255,0.1)">
+                          <div class="d-flex gutter-condensed gutter-md-spacious col-12 col-lg-8 flex-justify-between text-md-left">
+                            <div class="col-6 col-sm-4 col-md-3">
+                              <h2 data-optimizely-variation="en" class="f3-mktg text-mono color-text-white text-normal no-wrap">65<span class="text-white-fade">+</span> million</h2>
+                              <h2 data-optimizely-variation="ko" class="f3-mktg text-mono color-text-white text-normal no-wrap" hidden="">65+ million</h2>
+                              <p class="m-0 text-mono text-white-fade f6-mktg">Developers</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                              <h2 data-optimizely-variation="en" class="f3-mktg text-mono color-text-white text-normal no-wrap">3<span class="text-white-fade">+</span> million</h2>
+                              <h2 data-optimizely-variation="ko" class="f3-mktg text-mono color-text-white text-normal no-wrap" hidden="">3+ million</h2>
+                              <p class="m-0 text-mono text-white-fade f6-mktg">Organizations</p>
+                            </div>
+                            <div class="col-sm-4 col-md-3 d-none d-md-block">
+                              <h2 data-optimizely-variation="en" class="f3-mktg text-mono color-text-white text-normal no-wrap">200<span class="text-white-fade">+</span> million</h2>
+                              <h2 data-optimizely-variation="ko" class="f3-mktg text-mono color-text-white text-normal no-wrap" hidden="">200+ million</h2>
+                              <p class="m-0 text-mono text-white-fade f6-mktg">Repositories</p>
+                            </div>
+                            <div class="col-3 d-none d-sm-block">
+                              <h3 class="f3-mktg text-mono color-text-white text-normal no-wrap">72%</h3>
+                              <p class="m-0 text-mono text-white-fade f6-mktg">Fortune 50</p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
