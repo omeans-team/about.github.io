@@ -1,0 +1,16 @@
+.color-text-white{color: white!important;}
+.text-white-fade {color: hsla(0,0%,100%,.7) !important;}
+.c-w a{
+    color: white!important;
+}
+
+.c-w a:hover{
+    color: red!important;
+}
+.dropdown-menu a{
+    color: royalblue !important;
+}
+.dropdown-menu a:hover{
+    color: black
+     !important;
+}
