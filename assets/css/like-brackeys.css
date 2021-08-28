@@ -8,7 +8,8 @@
     border:none !important
    }
 .header-limiter {
-    max-width:960px;
+    width: 100%;
+    /* max-width:960px; */
     text-align:center;
     margin:0 auto
    }
