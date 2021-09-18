@@ -4,6 +4,7 @@ body{margin: 0;}
 .prof{height: 165px;margin-top: 12px;margin-bottom: 24px;color: white;}
 .prof img{margin-bottom: 16px; height: 96px;border-radius: 50%;}
 .prof h1{font-size: 16px; font-weight: bold;}
+.prof a{text-decoration: none;}
 .prof h2{font-size: 14px; font-weight: bold;}
 .btn-link{color: #333;text-decoration: none; font-family: 'Bebas Neue', cursive;}
 .btn-link button{background-color: white;width: 100%;margin: 6px 0px;}
