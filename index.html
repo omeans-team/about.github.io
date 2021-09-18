@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="assets/css/like-github.css">
         <link rel="stylesheet" href="assets/css/like-brackeys.css">
         <link rel="stylesheet" href="assets/css/other-important.css">
+        <link rel="stylesheet" href="assets/css/slide-show.css">
         <!-- End CSS -->
 
         <!-- Start JavaScript -->
@@ -48,7 +49,7 @@
         <!-- End Client Logo Carousel -->
         <!-- End Client Logo Carousel -->
 
-        <title>BS4</title>
+        <title>ARIS HADISOPIYAN</title>
 
     </head>
     <body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
@@ -70,7 +71,7 @@
         <!-- Start Style Github Top -->
         <!-- Start Style Github Top -->
         <div class="bg-brackeys home-hero-container position-relative js-webgl-globe-data">
-         
+
 
           <div class="home-hero position-absolute z-1 top-0 right-0 bottom-0 left-0 overflow-hidden">
          
@@ -124,7 +125,46 @@
           </div>
       </div>
       </nav>
+      <div class="position-absolute bg-white">dd</div>
+      <div class="slideshow-container position-absolute">
 
+        <div class="mySlides fade">
+          <img src="assets/images/img_snow_wide.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="assets/images/slide/img_snow_wide.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="assets/images/slide/img_snow_wide.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        </div>
+        <script>
+          var slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
           </div>
           <div class="position-lg-absolute bottom-lg-8 left-lg-0 right-lg-0 mt-4 z-1 position-relative">
             <div class="container-xl mx-auto px-lg-3">
