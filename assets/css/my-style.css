@@ -35,7 +35,7 @@
 .c-w a{color: white!important;}
 .c-w a:hover{color: #e47909!important;}
 .c-3 a{color: #333!important;}
-.c-3 a:hover{color: #e47909!important;background-color: #333;}
+.c-3 a:hover{color: #e47909!important;background-color: #333!important;}
 /*Background Text*/
 .bg-a1{background-color: #e47909!important;}
 .bg-a2{background-color: #212529!important;}
