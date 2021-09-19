@@ -55,6 +55,6 @@
     border-color: #e47909;
 }
 .prof img{height: 30px;border-radius: 50%;}
-.cr{color: white; position: fixed; bottom: 0; width: 100%;}
-.cr a{text-decoration: none;color: #e47909;}
-.cr a: hover;{text-shadow:0 1px 3px rgba(0,0,0,0.5);}
+.cr{color: white!important; position: fixed!important; bottom: 0!important; width: 100%!important;}
+.cr a{text-decoration: none!important;color: #e47909!important;}
+.cr a: hover{text-shadow:0 1px 3px rgba(0,0,0,0.5)!important;}
