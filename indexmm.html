@@ -24,6 +24,7 @@
         <!-- End Bootstrap CSS -->
         <!-- End Bootstrap CSS -->        
         <link rel="stylesheet" href="assets/css/index-default.css">
+        <link rel="stylesheet" href="assets/css/other-important.css">
         <!-- End CSS -->
 
 
@@ -209,8 +210,32 @@
         <script src="assets/js/slick-slider.js"></script>
         <!-- End Client Logo Carousel -->
         <!-- End Client Logo Carousel -->
-        <!-- End Client Logo Carousel --
+        <!-- End Client Logo Carousel -->
 
+        <!-- Back To Top Image -->
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 926 || document.documentElement.scrollTop > 926) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+              
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+          
+          </script>
+          <!-- Back To Top Image -->
 
     </body>
 </html>

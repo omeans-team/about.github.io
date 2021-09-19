@@ -28,3 +28,29 @@
   /*End Back to top*/
   /*End Back to top*/
 /*STYLE ARIS HADISOPIYAN*/
+/*Text color*/
+.c-ahst{color: #e47909!important;}
+.c-white{color: white;}
+/*Text Link Color*/
+.c-w a{color: white!important;}
+.c-w a:hover{color: #e47909!important;}
+.c-3 a{color: #333!important;}
+.c-3 a:hover{color: #e47909!important;background-color: #333;}
+/*Background Text*/
+.bg-a1{background-color: #e47909!important;}
+.bg-a2{background-color: #212529!important;}
+.bg-white{background-color: white!important;}
+.bg-brack{background-color: #333!important;}
+/*Button Color*/
+.btn-outline-ahst {
+    color: #e47909;
+    background-color: transparent;
+    background-image: none;
+    border-color: #e47909;
+}
+.btn-outline-ahst:hover {
+    color: #212529;
+    background-color: #e47909;
+    background-image: none;
+    border-color: #e47909;
+}
