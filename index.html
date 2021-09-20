@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="assets/css/like-brackeys.css">
         <link rel="stylesheet" href="assets/css/other-important.css">
         <link rel="stylesheet" href="assets/css/slide-show.css">
-        <link rel="stylesheet" href="assets/css/portfolio-gallery-filter.css">
         <!-- End CSS -->
 
         <!-- Start JavaScript -->
@@ -32,7 +31,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="assets/js/btn-back-to-top.js"></script>
         <script src="assets/js/slideshow.js"></script>
-        <script src="assets/js/portfolio-gallery-filter.js"></script>
+        <script src="assets/js/include-html.js">
+</script>
         <!-- End JavaScript -->
         
                 <!-- Start Client Logo Carousel -->
@@ -266,94 +266,15 @@
       <div class="position-relative">
         <div class="pdt-10 bg-brackeys">
 
-<h2 class="text-center" id="portfolio_gallery_filter">PORTFOLIO</h2>
 
             <!-- START PORTFOLIO GALLERY FILTER -->
             <!-- START PORTFOLIO GALLERY FILTER -->
             <!-- START PORTFOLIO GALLERY FILTER -->
-            <!-- MAIN (Center website) -->
-<div class="main">
+<div include-html="portfolio-gallery-filter.html"></div>
 
-
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
-</div>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column nature">
-    <div class="content">
-      <img src="assets/images/Profil_001.png" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  
-  <div class="column cars">
-    <div class="content">
-      <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-
-  <div class="column people">
-    <div class="content">
-      <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Man</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="assets/images/Profil_001.png" alt="Car" style="width:100%">
-      <h4>Woman</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-<!-- END GRID -->
-</div>
-
-<!-- END MAIN -->
-</div>
+<script>
+includeHTML();
+</script>
 
             <!-- END PORTFOLIO GALLERY FILTER -->
             <!-- END PORTFOLIO GALLERY FILTER -->
