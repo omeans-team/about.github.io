@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 
 /* Center website */
 .main {
@@ -62,7 +58,7 @@ h1 {
   background-color: #ddd;
 }
 
-.btn.active {
+.btn .active {
   background-color: #666;
   color: white;
 }
