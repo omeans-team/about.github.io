@@ -15,7 +15,7 @@
 
 
 #aSide {
-    height: 100vh;
+    height: 100%;
     width: 600px;
     position: absolute;
     top: calc(50% - 300px);
@@ -24,7 +24,7 @@
 
 #aSide img,
 model-viewer {
-    height: 100vh;
+    height: 100%;
     width: 600px;
     position: absolute;
     top: 0;
@@ -37,13 +37,4 @@ model-viewer {
     position: absolute;
     left: 12%;
     top: calc(50% - 250px);
-}
-
-#content h2 {
-    font-size: 140px;
-    color: #64a5ad;
-}
-
-#content p {
-    font-size: 20px;
 }
