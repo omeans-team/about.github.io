@@ -13,13 +13,17 @@
 }
 
 
+
 #aSide {
     height: 600px;
-    width: 100%;
+    width: 600px;
     position: absolute;
+    top: calc(50% - 300px);
+    right: 7%;
 }
 
-#aSide model-viewer {
+#aSide img,
+model-viewer {
     height: 600px;
     width: 600px;
     position: absolute;
@@ -27,3 +31,19 @@
     left: 0;
 }
 
+#content {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 12%;
+    top: calc(50% - 250px);
+}
+
+#content h2 {
+    font-size: 140px;
+    color: #64a5ad;
+}
+
+#content p {
+    font-size: 20px;
+}
