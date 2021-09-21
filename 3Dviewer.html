@@ -134,11 +134,17 @@
         .slide:focus-visible {
           outline: 1px solid #4285f4;
         }
-      
+        #container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #f7f7f7;
+}
       </style>
 </head>
 
 <body>
+  <div id="container">
     <model-viewer src="assets/3DGallery/Old_bed.glb" poster="assets/3DGallery/logo.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
   
         <button slot="ar-button" id="ar-button">
@@ -167,7 +173,7 @@
           </button></div>
         </div>
       </model-viewer>
-
+</div>
       <script type="module">
         const modelViewer = document.querySelector("model-viewer");
       
