@@ -146,7 +146,7 @@
 
 <body>
   <div id="container">
-    <model-viewer src="assets/3DGallery/Old_bed.glb" poster="assets/3DGallery/Old_bed.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
+    <model-viewer src="assets/3DGallery/Model/honai-1.glb" poster="assets/3DGallery/Model/honai-1.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
   
   <!--     <model-viewer src="assets/3DGallery/Old_bed.glb" poster="assets/3DGallery/Old_bed.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls skybox-image="assets/3DGallery/bg_skybox2.hdr" alt="A 3D model carousel"> -->
         <button slot="ar-button" id="ar-button">
@@ -163,15 +163,15 @@
       
         <div class="slider">
           <div class="slides">
-            <button class="slide selected" onclick="switchSrc(this, 'Old_bed')" style="background-image: url('assets/3DGallery/Old_bed.png');">
+            <button class="slide selected" onclick="switchSrc(this, 'mug-1')" style="background-image: url('assets/3DGallery/Model/mug-1.png');">
       
-            </button><button class="slide" onclick="switchSrc(this, 'Old_bed')" style="background-image: url('assets/3DGallery/Old_bed.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'koteka-1')" style="background-image: url('assets/3DGallery/Model/koteka-1.png');">
       
-            </button><button class="slide" onclick="switchSrc(this, 'Old_bed')" style="background-image: url('assets/3DGallery/Old_bed.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'logo-oms-1')" style="background-image: url('assets/3DGallery/Model/logo-oms-1.png');">
             
-            </button><button class="slide" onclick="switchSrc(this, 'Old_bed')" style="background-image: url('assets/3DGallery/Old_bed.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'lounge-chairs-1')" style="background-image: url('assets/3DGallery/Model/lounge-chairs-1.png');">
             
-            </button><button class="slide" onclick="switchSrc(this, 'Old_bed')" style="background-image: url('assets/3DGallery/Old_bed.png');">    
+            </button><button class="slide" onclick="switchSrc(this, 'mug-1')" style="background-image: url('assets/3DGallery/Model/mug-1.png');">    
           </button></div>
         </div>
       </model-viewer>
@@ -180,7 +180,7 @@
         const modelViewer = document.querySelector("model-viewer");
       
         window.switchSrc = (element, name) => {
-          const base = "assets/3DGallery/" + name;
+          const base = "assets/3DGallery/Model/" + name;
           modelViewer.src = base + '.glb';
           modelViewer.poster = base + '.png';
           const slides = document.querySelectorAll(".slide");
