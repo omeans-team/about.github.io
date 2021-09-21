@@ -41,8 +41,8 @@
 
 #aSide img,
 model-viewer {
-    height: 600px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
