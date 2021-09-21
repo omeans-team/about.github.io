@@ -15,7 +15,7 @@
 
 
 #aSide {
-    height: 600px;
+    height: 100vh;
     width: 600px;
     position: absolute;
     top: calc(50% - 300px);
@@ -24,7 +24,7 @@
 
 #aSide img,
 model-viewer {
-    height: 600px;
+    height: 100vh;
     width: 600px;
     position: absolute;
     top: 0;
