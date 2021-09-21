@@ -6,6 +6,7 @@
 }
 
 #container {
+    height: 800px;
     width: 100%;
     position: relative;
     background: #f7f7f7;
@@ -33,12 +34,14 @@
 }
 
 #aSide {
+    height: 100%;
     width: 100%;
     position: absolute;
 }
 
 #aSide img,
 model-viewer {
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
