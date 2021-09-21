@@ -35,10 +35,8 @@
 
 #aSide {
     height: 600px;
-    width: 600px;
+    width: 100%;
     position: absolute;
-    top: calc(50% - 300px);
-    right: 7%;
 }
 
 #aSide img,
