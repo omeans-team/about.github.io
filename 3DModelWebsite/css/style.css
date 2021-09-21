@@ -12,17 +12,6 @@
     background: #f7f7f7;
 }
 
-
-
-#aSide {
-    height: 100%;
-    width: 600px;
-    position: absolute;
-    top: calc(50% - 300px);
-    right: 7%;
-}
-
-img,
 model-viewer {
     height: 100%;
     width: 100%;
@@ -31,10 +20,3 @@ model-viewer {
     left: 0;
 }
 
-#content {
-    height: 500px;
-    width: 700px;
-    position: absolute;
-    left: 12%;
-    top: calc(50% - 250px);
-}
