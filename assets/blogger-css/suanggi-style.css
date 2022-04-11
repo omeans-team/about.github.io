@@ -17,8 +17,13 @@
 }
 .c-white a{
     color: var(--suanggi-white);
-    text-decoration: var(--reset);
 }
 .bg-dark1{
     background-color: var(--suanggi-dark1);
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: #64a5ad;
+    font-size: 20px;
+    transform: 0.5s;
 }
