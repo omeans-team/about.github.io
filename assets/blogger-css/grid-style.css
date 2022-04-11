@@ -1,16 +1,15 @@
-
-
-.container-md,
-.container-sm {
-    margin-left: auto;
-    margin-right: auto
-}
-
+.container-fluid,
 .container-lg,
+.container-md,
+.container-sm,
 .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: auto
 }
+
 
 .col-1 {
     width: 8.33333%
