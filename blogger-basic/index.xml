@@ -35,7 +35,9 @@
         <!-- CSS SUANGGI START -->
         <!-- CSS SUANGGI START -->
         <!-- CSS SUANGGI START -->
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/grid-style.css' rel='stylesheet'/>
         <link href='https://arishadisopiyan.github.io/assets/blogger-css/root.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/screen-style.css' rel='stylesheet'/>
         <link href='https://arishadisopiyan.github.io/assets/blogger-css/suanggi-style.css' rel='stylesheet'/>
         <!-- CSS SUANGGI END -->
         <!-- CSS SUANGGI END -->
@@ -175,7 +177,7 @@
     </head>
     <body style="word-wrap: break-word;">
         <header>
-            <nav class='navbar navbar-expand-lg navbar-light bg-arishadisopiyan c-w'>
+            <nav class='navbar navbar-expand-lg navbar-light bg-dark1'>
                 <b:section class='#top-bar-nav' id='#top-bar-nav' name='Top Navbar' maxwidgets='1' showaddelement='yes'>
                     <!-- Tambahkan Widget HTML/Javascript -->
                     <!-- Masukkan kode di bawah -->
