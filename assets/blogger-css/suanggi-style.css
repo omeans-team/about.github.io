@@ -1,0 +1,10 @@
+
+/* FONT FAMILY */
+/* FONT FAMILY */
+/* FONT FAMILY */
+.ff-bebas{
+    font-family: var(--font-family-bebas-neue);
+}
+.ff-mono{
+    font-family: var(--font-family-monospace);
+}

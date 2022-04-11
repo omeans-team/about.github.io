@@ -1,0 +1,64 @@
+/* 
+-----------------------------------------------
+Blogger Template Style
+Name		:	Suanggi
+Version		:	Beta
+Author		:	Suanggi
+Author Url	:	https://www.youtube.com/channel/UC_BmdtkEVvQejjsm4qCqL8Q
+----------------------------------------------- 
+------Harus ada (No Delete)----------
+-----------------------------------------------
+*/
+
+/* 
+-----------------------------------------------
+Penggunaan root
+-----------------------------------------------
+----------------------------------------------- 
+*/
+
+:root{
+    /* FONT FAMILY */
+    /* FONT FAMILY */
+    /* FONT FAMILY */
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family-bebas-neue: 'Bebas Neue', cursive;
+
+    /* COLOR */
+    /* COLOR */
+    /* COLOR */
+    --color-suanggi-dark: #333 !important;
+    --color-suanggi-dark2: #212529 !important;
+    --color-suanggi-orange: #e47909 !important;
+
+    /* BACKGROUND COLOR */
+    /* BACKGROUND COLOR */
+    /* BACKGROUND COLOR */
+    --bg-suanggi-dark: #333 !important;
+    --bg-suanggi-dark2: #212529 !important;
+    --bg-suanggi-orange: #e47909 !important;
+
+    /* TEXT SHADOW */
+    /* TEXT SHADOW */
+    /* TEXT SHADOW */
+    --text-shadow: text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+
+    /* DECORATION */
+    /* DECORATION */
+    /* DECORATION */
+    --reset-text-decoration: text-decoration: none !important;
+}
+/* FONT FAMILY */
+/* FONT FAMILY */
+/* FONT FAMILY */
+.ff-bebas{
+    font-family: var(--font-family-bebas-neue);
+}
+.ff-mono{
+    font-family: var(--font-family-monospace);
+}
+
+
+
+/*-- Body Content CSS --*/
+/*-- Font Style CSS --*/
