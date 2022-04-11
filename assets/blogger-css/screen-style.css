@@ -281,23 +281,8 @@
     }
 }
 
-@media (max-width:1012px) {
-    .container-lg {
-        max-width: 1012px
-    }
-}
-
-@media (max-width:1140px) {
-
-    .container-sm {
-        max-width: 1140px;
-    }
-}
 
 @media (max-width:1280px) {
-    .container-xl {
-        max-width: 1280px
-    }
 
     .file-diff-split .write-selected .comment-form-head {
         margin-bottom: 48px !important
