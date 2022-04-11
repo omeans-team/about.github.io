@@ -15,6 +15,9 @@
 .c-white{
     color: var(--color-suanggi-white);
 }
+.clink-white a{
+    color: var(--color-suanggi-white);
+}
 .bg-dark1{
     background-color: var(--bg-suanggi-dark1);
 }
