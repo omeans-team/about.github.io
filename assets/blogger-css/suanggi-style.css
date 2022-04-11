@@ -22,7 +22,7 @@
     background-color: var(--suanggi-dark1);
 }
 #navbar ul li a {
-    text-decoration: none;
+    text-decoration: none!important;
     color: #64a5ad;
     font-size: 20px;
     transform: 0.5s;
