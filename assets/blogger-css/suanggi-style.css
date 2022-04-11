@@ -10,14 +10,15 @@
 }
 
 .c-dark1{
-    color: var(--color-suanggi-dark1);
+    color: var(--suanggi-dark1);
 }
 .c-white{
-    color: var(--color-suanggi-white);
+    color: var(--suanggi-white);
 }
 .c-white a{
-    color: var(--color-suanggi-white);
+    color: var(--suanggi-white);
+    text-decoration: var(--reset);
 }
 .bg-dark1{
-    background-color: var(--bg-suanggi-dark1);
+    background-color: var(--suanggi-dark1);
 }

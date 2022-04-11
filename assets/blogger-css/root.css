@@ -27,17 +27,11 @@ Penggunaan root
     /* COLOR */
     /* COLOR */
     /* COLOR */
-    --color-suanggi-white: #fff !important;
-    --color-suanggi-dark1: #333 !important;
-    --color-suanggi-dark2: #212529 !important;
-    --color-suanggi-orange: #e47909 !important;
+    --suanggi-white: #fff !important;
+    --suanggi-dark1: #333 !important;
+    --suanggi-dark2: #212529 !important;
+    --suanggi-orange: #e47909 !important;
 
-    /* BACKGROUND COLOR */
-    /* BACKGROUND COLOR */
-    /* BACKGROUND COLOR */
-    --bg-suanggi-dark1: #333 !important;
-    --bg-suanggi-dark2: #212529 !important;
-    --bg-suanggi-orange: #e47909 !important;
 
     /* TEXT SHADOW */
     /* TEXT SHADOW */
@@ -47,7 +41,7 @@ Penggunaan root
     /* DECORATION */
     /* DECORATION */
     /* DECORATION */
-    --reset-text-decoration: text-decoration: none !important;
+    --reset: text-decoration: none !important;
 }
 
 
