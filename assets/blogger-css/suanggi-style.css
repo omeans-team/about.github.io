@@ -8,3 +8,10 @@
 .ff-mono{
     font-family: var(--font-family-monospace);
 }
+
+.c-dark1{
+    color: var(--color-suanggi-dark1);
+}
+.bg-dark1{
+    color: var(--bg-suanggi-dark1);
+}

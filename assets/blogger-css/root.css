@@ -27,14 +27,14 @@ Penggunaan root
     /* COLOR */
     /* COLOR */
     /* COLOR */
-    --color-suanggi-dark: #333 !important;
+    --color-suanggi-dark1: #333 !important;
     --color-suanggi-dark2: #212529 !important;
     --color-suanggi-orange: #e47909 !important;
 
     /* BACKGROUND COLOR */
     /* BACKGROUND COLOR */
     /* BACKGROUND COLOR */
-    --bg-suanggi-dark: #333 !important;
+    --bg-suanggi-dark1: #333 !important;
     --bg-suanggi-dark2: #212529 !important;
     --bg-suanggi-orange: #e47909 !important;
 
@@ -47,15 +47,6 @@ Penggunaan root
     /* DECORATION */
     /* DECORATION */
     --reset-text-decoration: text-decoration: none !important;
-}
-/* FONT FAMILY */
-/* FONT FAMILY */
-/* FONT FAMILY */
-.ff-bebas{
-    font-family: var(--font-family-bebas-neue);
-}
-.ff-mono{
-    font-family: var(--font-family-monospace);
 }
 
 
