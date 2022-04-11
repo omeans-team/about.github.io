@@ -12,6 +12,9 @@
 .c-dark1{
     color: var(--color-suanggi-dark1);
 }
+.c-white{
+    color: var(--color-suanggi-white);
+}
 .bg-dark1{
     background-color: var(--bg-suanggi-dark1);
 }

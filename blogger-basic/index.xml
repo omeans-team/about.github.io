@@ -46,6 +46,8 @@
         <!-- Bootstrap 4.0.0 START -->
         <!-- Bootstrap 4.0.0 START -->
         <!-- CSS -->
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'/>
+        <!-- Suanggi -->
         <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-grid.css' rel='stylesheet'/>
         <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-grid.min.css' rel='stylesheet'/>
         <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-reboot.css' rel='stylesheet'/>
@@ -177,13 +179,13 @@
     </head>
     <body style="word-wrap: break-word;">
         <header>
-            <nav class='navbar navbar-expand-lg navbar-light bg-dark1'>
-                <b:section class='#top-bar-nav' id='#top-bar-nav' name='Top Navbar' maxwidgets='1' showaddelement='yes'>
+            <nav class='navbar navbar-expand-lg navbar-light bg-dark1 c-white'>
+                <!-- <b:section class='#top-bar-nav' id='#top-bar-nav' name='Top Navbar' maxwidgets='1' showaddelement='yes'> -->
                     <!-- Tambahkan Widget HTML/Javascript -->
                     <!-- Masukkan kode di bawah -->
-                    <!-- <div class='container-sm'>
+                    <div class='container-sm'>
                         <a class='navbar-brand' expr:href='data:blog.homepageUrl'>
-                            <img class='d-inline-block align-top' expr:alt='data:blog.title' height='30' src='https://arishadisopiyan.github.io/assets/images/logo.webp'/>
+                            <img class='d-inline-block align-top' expr:alt='data:blog.title' height='30px' src='https://arishadisopiyan.github.io/assets/images/logo.webp'/>
                         </a>
                         <button aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler bg-white' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
                             <span class='navbar-toggler-icon'/>
@@ -210,8 +212,8 @@
                                 <button class='btn btn-outline-ahst my-2 my-sm-0' type='submit'>Cari</button>
                             </form>
                         </div>
-                    </div> -->
-                    <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+                    </div>
+                    <!-- <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
                         <b:widget-settings>
                             <b:widget-setting name='content'>
                                 &lt;div class=&#39;container-sm&#39;&gt;
@@ -253,7 +255,7 @@
                             </div>
                         </b:includable>
                     </b:widget>
-                </b:section>
+                </b:section> -->
             </nav>
         </header>
         <!-- Navigation + div container class-->
